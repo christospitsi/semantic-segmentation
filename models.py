@@ -10,8 +10,6 @@ import urllib
 import torch.nn.functional as F
 import torch.utils.model_zoo as model_zoo
 
-# FCN architectures based in https://github.com/pochih/FCN-pytorch/blob/master/python/fcn.py
-# FCN32 class modified for use of ResNet networks as backbones
 
 class FCN32s(nn.Module):
 
